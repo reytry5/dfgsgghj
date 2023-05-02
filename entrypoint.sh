@@ -2,7 +2,7 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'c664751b-b662-48f9-b2aa-2f0d4d337a7f'}
+UUID=${UUID:-'baac7f9e-f342-4a90-b2b5-397d48befdb5'}
 
 # 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
 NEZHA_SERVER= 
@@ -10,8 +10,8 @@ NEZHA_PORT=
 NEZHA_KEY=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN=
+ARGO_AUTH='{"AccountTag":"41ec93a26fdc8fe0c757fdb811243960","TunnelSecret":"+5VUewiGZ3Z5/cuZYLmCGx6xZhalHCZ50dFRHDI9Ffg=","TunnelID":"f1c5d980-0172-4e36-88fe-825d18a09960"}'
+ARGO_DOMAIN=dfgsgghj.hvjkmgrw.tk
 
 generate_config() {
   cat > config.json << EOF
